@@ -1,0 +1,42 @@
+body{
+	background-color: #e7f0fe!important;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.card-body {
+	box-shadow: 3px 3px 15px -5px #486185;
+
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.list {
+    line-height: 12px;
+}

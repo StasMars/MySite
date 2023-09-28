@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Марусин Станислав</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/Stas.jpg' %}" >
+					<hr>
+					<h4>Марусин Стас</h4>
+					<p class="descrip">Backend developer</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>О себе</h4>
+					<hr>
+					<p>Привет, меня зовут Стас. Я студент, начинающий веб-разработчик, хочу развиваться в направлении back-end.</p>
+
+					<p>Проходил курс Python-разработчик от Хекслет.Писал сайты с использованием фреймворка Django. Также писал телеграм-бота для малого бизнеса (магазина продажи одежды).</p>
+
+					<p>Ниже представлены ссылки на мои соц сети, а также на github, где вы можете ознакомиться с моими работами.</p>
+
+					<ul class="social-links">
+						<li><a href="https://t.me/stmarusin" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/tt.png' %}"></a></li>
+						<li><a href="https://vk.com/stanislav_marusin" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/vv.png' %}"></a></li>
+						<li><a href="https://github.com/StasMars" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/git2.png' %}"></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Ключевые навыки</h5>
+					<hr>
+						<div class="list">
+						  <p>- Python</p>
+						  <p>- Django</p>
+						  <p>- HTML/CSS</p>
+						  <p>- Git</p>
+						  <p>- Docker</p>
+						  <p>- SQLite</p>
+						  <p>- PostgreSQL</p>
+						</div>
+<!--					<p>Python, Django, HTML/CSS, Git, Docker, Flask, SQLite, PostgreSQL</p>-->
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>BestWomen(Django)</h5>
+					<hr>
+					<p>Сайт создан при помощи фрэймворка Django. Он позволяет добавлять и читать статьи об известных женщинах.
+						Вы можете выбирать статьи по категориям, а также добавлять свои собственные статьи после регистрации.
+    					Приятного просмотра.</p>
+					<p>Ниже представлена ссылка кода на Githib</p>
+					<li><a href="https://github.com/StasMars/BestWomen" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/git2.png' %}"></a></li>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>MarsShopBot</h5>
+					<hr>
+					<p>Телеграм бот для магазина одежды. Вся коллекция одежды и пункты выдачи.
+						Оплата и связь с продавцом.</p>
+					<p>Ниже представлена ссылка кода на Githib</p>
+					<li><a href="https://github.com/StasMars/MarsShopBot" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/git2.png' %}"></a></li>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>YourWeather(Django)</h5>
+				<hr>
+				<p>Сайт для запроса погоды из любого города, написанный с использованием Django.</p>
+				<p>Ниже представлена ссылка кода на Githib</p>
+				<li><a href="https://github.com/StasMars/YourWeather" target="_blank" rel="nofollow"><img class="social" src="{% static 'images/git2.png' %}"></a></li>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
